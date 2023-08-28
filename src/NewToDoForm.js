@@ -21,7 +21,7 @@ export default function NewBoxForm ({addToList}) {
 
   return (
   
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id="todoForm">
       <label htmlFor="task">todo</label>
       <input type="text" 
              name="task"

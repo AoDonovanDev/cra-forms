@@ -1,3 +1,5 @@
+import "./Todo.css"
+
 export default function Todo ({task, completeTodo}) {
   return(
     <div className="ToDo">

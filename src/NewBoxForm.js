@@ -25,7 +25,7 @@ export default function NewBoxForm ({addItem}) {
 
   return (
   
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id="newBoxForm">
       <label htmlFor="bgcolor">background color</label>
       <input type="text" 
              name="bgcolor"
