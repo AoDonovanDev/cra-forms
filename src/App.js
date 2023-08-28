@@ -2,11 +2,13 @@
 import './App.css';
 
 import BoxList from "./BoxList"
+import ToDoList from "./ToDoList"
 
 function App() {
   return (
     <div className="App">
       <BoxList />
+      <ToDoList />
     </div>
   );
 }
